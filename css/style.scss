@@ -1,0 +1,15 @@
+.kvadratik {
+    background: rgb(68, 223, 53);
+    height: 150px;
+    width: 150px;
+    transition: 0.7s ease;
+    &.active {
+        background: rgb(0, 60, 255);
+    }
+    &:hover {
+        transform: rotate(-10deg);
+    }
+}
+.kvadratikbottom {
+    margin-top: 30px;
+}

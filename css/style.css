@@ -1,0 +1,18 @@
+.kvadratik {
+  background: #44df35;
+  height: 150px;
+  width: 150px;
+  transition: 0.7s ease;
+}
+
+.kvadratik.active {
+  background: #003cff;
+}
+
+.kvadratik:hover {
+  transform: rotate(-10deg);
+}
+
+.kvadratikbottom {
+  margin-top: 30px;
+}
